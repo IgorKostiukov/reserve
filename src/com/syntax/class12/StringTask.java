@@ -8,7 +8,7 @@ public class StringTask {
 		int middle=0;
 		if (!str.isEmpty()) {
 			if (str.length()%2==1 && str.length() >=3) {
-				middle=(str.length()-1)/2;
+				middle=str.length()/2;
 				System.out.println(str.charAt(middle));
 			}
 		}
